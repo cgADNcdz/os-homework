@@ -23,6 +23,11 @@
       "string_view": "cpp",
       "system_error": "cpp",
       "type_traits": "cpp",
-      "typeinfo": "cpp"
+      "typeinfo": "cpp",
+      "vector": "cpp",
+      "deque": "cpp",
+      "array": "cpp",
+      "utility": "cpp",
+      "unordered_map": "cpp"
    }
 }
