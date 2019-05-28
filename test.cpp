@@ -3,7 +3,7 @@
 #include<cmath>
 #include<map>
 #include<string>
-
+#include<ctime>
 
 using namespace std;
 
@@ -14,15 +14,13 @@ typedef struct normal                      //普通的磁盘块(本次实验不�
 
 int main()
 {
-   normalBlcok a;
-   a.id=4;
-
-   normalBlcok b;
-   b.id=7;
-
-   a=b;
-
-   cout<<a.id<<endl;
+   srand((unsigned)time(NULL));
+   for(int i=0;i<10;i++)
+   {
+       int a=rand()%5;
+       cout<<a<<endl;
+   }
+  
    
    cout<<"hello cg!"<<endl;
    return 0;

@@ -28,6 +28,11 @@
       "deque": "cpp",
       "array": "cpp",
       "utility": "cpp",
-      "unordered_map": "cpp"
+      "unordered_map": "cpp",
+      "ctime": "cpp",
+      "fstream": "cpp",
+      "optional": "cpp",
+      "sstream": "cpp",
+      "tuple": "cpp"
    }
 }
